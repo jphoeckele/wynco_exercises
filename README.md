@@ -1,2 +1,1 @@
-# Wyn
-# Wyn
+# wynco_exercises-
