@@ -1,3 +1,16 @@
+#The Cats in Hats Problem
+
+# You have 100 cats in a row that are all wearing hats. 
+# You make 100 passes by the cats. The first time through, 
+# you visit every cat and remove its hat if it’s on, and 
+# put it on if it’s off. The second time you only visit 
+# every 2nd cat (cat #2, #4, #6, …). The third time, every
+# 3rd cat (cat #3, #6, #9, …), etc, until you only visit 
+# the 100th cat. After the last pass, which cats aren’t
+# wearing hats? Show the code you wrote to get this answer.
+
+
+
 cats = Array (1..100)      #Creates an array 1-100
 i = 1
 cats.map do |x| x +=i      #Maps array with increasing value 1-100
